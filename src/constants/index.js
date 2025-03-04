@@ -1,6 +1,6 @@
 export const navLinks = [
   {
-    href: "#team",
+    href: "/Team",
     label: "Team",
     subLinks: [
       { href: "/profile/Mr_Rachit_Sharma", label: "Rachit Sharma" },
@@ -13,5 +13,5 @@ export const navLinks = [
   },
   { href: "/ShreeJeeLegalProfile", label: "About Us" },
   { href: "#about-us", label: "Services" },
-  { href: "https://wa.me/+917737662510", label: "Contact Us" },
+  { href: "/contact-us", label: "Contact Us" },
 ];

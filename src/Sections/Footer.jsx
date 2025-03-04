@@ -33,7 +33,7 @@ const Footer = () => {
                 href="mailto:advocate.rachitsharma@shreejeelegal.com"
                 className="text-gray-300 hover:underline"
               >
-                advocate.rachitsharma@shreejeelegal.com
+                contact@shreejeelegal.in
               </a>
             </p>
           </div>

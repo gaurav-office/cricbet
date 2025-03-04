@@ -25,7 +25,7 @@ const Nav = () => {
   }, []);
 
   return (
-    <div className="py-4 sm:px-16 px-8 absolute w-full z-50 font-montserrat">
+    <div className="py-4 sm:px-16 px-8 absolute w-full z-50 font-montserrat mb-5">
       <nav className="flex justify-between items-center">
         {/* Logo */}
         <a href="/">

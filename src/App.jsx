@@ -11,7 +11,7 @@ import ShreeJeeLegalProfile from "./Sections/shreejeelegalprofile";
 import { RachitSharma, rcircle, Hanumant } from "./assets";
 import { Shashank } from "./assets";
 import Disclaimer from "./Sections/Disclaimer";
-
+import ContactUs from "./Sections/contact-us";
 const profileData = [
   {
     url: "/profile/Mr_Rachit_Sharma",
@@ -138,7 +138,9 @@ export default function App() {
         <section>
           <Nav />
         </section>
+
         <Routes>
+          <Route path={"/Team"} element={<Team />} />
           {profileData.map((d) => {
             return (
               <Route path={d.url} key={d.url} element={<Profile data={d} />} />
@@ -148,6 +150,7 @@ export default function App() {
             path={"/shreejeelegalprofile"}
             element={<ShreeJeeLegalProfile />}
           />
+          <Route path={"/contact-us"} element={<ContactUs />} />
           <Route
             path="/"
             element={

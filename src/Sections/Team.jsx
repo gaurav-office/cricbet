@@ -8,7 +8,7 @@ const Team = () => {
       id="our-team"
       className="w-full py-20 px-8 sm:px-16 bg-gradient-to-b from-[#eeeeee] to-[#d6d6d6] text-[#1d1d1d]"
     >
-      <div className="max-w-5xl mx-auto">
+      <div className="max-w-5xl mx-auto pt-14">
         <h2 className="text-4xl sm:text-5xl font-bold text-center mb-12 font-montserrat text-[#636363]">
           Meet Our <span className="text-[#111111]">Team</span>
         </h2>

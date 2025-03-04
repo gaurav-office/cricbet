@@ -4,8 +4,8 @@ const Disclaimer = ({ onAccept }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-transparent backdrop-blur-md z-[60]">
       <div className="w-2/3 bg-white/80 shadow-lg rounded-lg p-10 ">
-        <h1 className="font-mono font-bold text-5xl mb-4 ">Disclaimer</h1>
-        <p className=" font-mono text-lg px-10 justify-content text-justify ">
+        <h1 className="font-montserrat font-bold text-5xl mb-4 ">Disclaimer</h1>
+        <p className=" font-montserrat text-lg px-10 justify-content text-justify ">
           The Bar Council of India forbids advocates from advertising or
           soliciting in any shape or manner. By using this website
           <strong> (shreejeelegal.in)</strong> , you recognise and affirm that
