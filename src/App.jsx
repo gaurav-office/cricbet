@@ -94,8 +94,8 @@ export default function App() {
 
   useEffect(() => {
     const disclaimerAccepted = localStorage.getItem("disclaimerAccepted");
-    if (showDisclaimer) {
-      setShowDisclaimer(false);
+    if (!disclaimerAccepted) {
+      setShowDisclaimer(true);
     }
   }, []);
 
