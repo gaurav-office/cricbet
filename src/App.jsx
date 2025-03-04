@@ -94,9 +94,7 @@ export default function App() {
 
   useEffect(() => {
     const disclaimerAccepted = localStorage.getItem("disclaimerAccepted");
-    if (!disclaimerAccepted) {
-      setShowDisclaimer(true);
-    }
+    setShowDisclaimer(!disclaimerAccepted); // Show only if not accepted
   }, []);
 
   const handleAcceptDiaclaimer = () => {
@@ -191,6 +189,7 @@ export default function App() {
           <Footer />
         </footer>
       </>
+      }
     </Router>
   );
 }
