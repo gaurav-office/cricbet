@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 const Disclaimer = ({ onAccept }) => {
   return (
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-transparent backdrop-blur-md z-[60]">
@@ -10,9 +12,9 @@ const Disclaimer = ({ onAccept }) => {
           you are seeking information about SHREE JEE LEGAL on your own
           initiative and that
           <strong> SHREE JEE LEGAL</strong> or its members have made no
-          solicitation, advertising, or enticement. This website's content is
-          provided for educational purposes only and should not be construed as
-          solicitation or advertisement. If a visitor wishes to obtain or use
+          solicitation, advertising, or enticement. This website&apos;s content
+          is provided for educational purposes only and should not be construed
+          as solicitation or advertisement. If a visitor wishes to obtain or use
           our legal services online or offline, it is performed on his or her
           own free will and agreement, and should not be regarded as
           solicitation, enticement, or advertisement in any way.{" "}
@@ -30,6 +32,9 @@ const Disclaimer = ({ onAccept }) => {
       </div>
     </div>
   );
+};
+Disclaimer.propTypes = {
+  onAccept: PropTypes.func.isRequired,
 };
 
 export default Disclaimer;
