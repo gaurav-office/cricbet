@@ -13,5 +13,5 @@ export const navLinks = [
   },
   { href: "/ShreeJeeLegalProfile", label: "About Us" },
   { href: "#about-us", label: "Services" },
-  { href: "/contact-us", label: "Contact Us" },
+  { href: "/ContactUs", label: "ContactUs" },
 ];

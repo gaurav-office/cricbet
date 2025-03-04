@@ -7,11 +7,11 @@ import Team from "./Sections/Team";
 import Profile from "./Sections/Profile"; // Import Profile
 import { useState, useEffect } from "react";
 import BookingForm from "./Sections/BookingForm";
-import ShreeJeeLegalProfile from "./Sections/shreejeelegalprofile";
+import ShreeJeeLegalProfile from "./Sections/ShreeJeeLegalProfile";
 import { RachitSharma, Hanumant } from "./assets";
 import { Shashank } from "./assets";
 import Disclaimer from "./Sections/Disclaimer";
-import ContactUs from "./Sections/contact-us";
+import ContactUs from "./Sections/ContactUs";
 const profileData = [
   {
     url: "/profile/Mr_Rachit_Sharma",
@@ -145,10 +145,10 @@ export default function App() {
             );
           })}
           <Route
-            path={"/shreejeelegalprofile"}
+            path={"/ShreeJeeLegalProfile"}
             element={<ShreeJeeLegalProfile />}
           />
-          <Route path={"/contact-us"} element={<ContactUs />} />
+          <Route path={"/ContactUs"} element={<ContactUs />} />
           <Route
             path="/"
             element={
@@ -189,7 +189,6 @@ export default function App() {
           <Footer />
         </footer>
       </>
-      }
     </Router>
   );
 }
