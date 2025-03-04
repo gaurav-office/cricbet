@@ -1,4 +1,4 @@
-import slj from "./SJL.svg";
+// import slj from "./SJL.svg";
 import sjl from "./SLJ.png";
 import hamburger from "./hamburger.svg";
 import rachit from "./Rachit.jpg";
@@ -11,7 +11,6 @@ import RachitSharma from "./RachitSharma.jpg";
 import Office4 from "./Office4.jpg";
 import Hanumant from "./Hanumant.jpg";
 export {
-  slj,
   sjl,
   hamburger,
   rachit,
