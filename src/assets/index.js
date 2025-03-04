@@ -8,7 +8,7 @@ import office from "./office.jpg";
 import rcircle from "./rachit-circle.jpg";
 import Scircle from "./Shashank-circle.jpg";
 import RachitSharma from "./RachitSharma.jpg";
-import Office4 from "./Office4.jpg";
+import Office4 from "./OFFICE4.jpg";
 import Hanumant from "./Hanumant.jpg";
 export {
   sjl,

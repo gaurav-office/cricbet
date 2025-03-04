@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 // import { useNavigate } from "react-router-dom";
-import { office, Office4 } from "../assets";
+import { Office4 } from "../assets";
 
 const Hero = ({ openModal }) => {
   return (
