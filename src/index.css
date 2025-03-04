@@ -1,0 +1,151 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+  .clip-triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%) !important;
+  }
+}
+
+/* Modal overlay */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Modal content */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 900px;
+  max-height: 80vh; /* Limit height to 80% of the viewport height */
+  overflow-y: auto; /* Allows scrolling if content exceeds max height */
+  position: relative;
+}
+
+/* Close button (X) */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+/* Body styles when modal is open */
+body.modal-open .background-content {
+  filter: blur(5px);
+}
+
+/* Adjusting modal size for smaller screens */
+@media (max-width: 768px) {
+  .modal-content {
+    width: 90%;
+    max-height: 70vh; /* Slightly smaller height for mobile */
+  }
+}
+
+/* Custom scrollbar for Webkit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+  height: 10px; /* Height of the scrollbar for horizontal scrolling */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #008cba; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+  border: 3px solid #f0f8ff; /* Optional: Border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #005f6a; /* Darker shade when hovering */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f8ff; /* Background color of the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #e0f7fa; /* Lighter shade on hover */
+}
+
+/* Firefox scrollbar customization */
+scrollbar {
+  width: 10px;
+}
+
+scrollbar-thumb {
+  background-color: #008cba;
+  border-radius: 10px;
+}
+
+scrollbar-track {
+  background: #f0f8ff;
+}
+
+/* Responsive scrollbar adjustments */
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #00bcd4; /* Slightly different color for mobile */
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #e0f7fa;
+  }
+}
+
+.font-montserrat {
+  font-family: "Montserrat", serif;
+}
+.font-palanquin {
+  font-family: "Palanquin", serif;
+}
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply sm:px-16 px-8 sm:py-24 py-12;
+  }
+
+  .info-text {
+    @apply font-montserrat text-gray-700 text-lg leading-7;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-blue-500 text-white rounded-full shadow-md font-semibold transition-all duration-300 hover:bg-blue-600;
+  }
+  /* Add this to your global styles or in a <style> tag */
+}
