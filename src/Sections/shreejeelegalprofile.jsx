@@ -175,11 +175,11 @@ const ShreeJeeLegalProfile = () => {
                 Rajasthan
               </p>
               <p>Phone: +91 7737662510</p>
-              <p>Email: advocate.rachitsharma@gmail.com</p>
+              <p>Email: contact@shreejeelegal.in</p>
               <p>
-                Website:{" "}
+                Website:
                 <a href="#" className="text-blue-600 underline">
-                  www.____________________.com
+                  www.shreejeelegal.in
                 </a>
               </p>
             </address>
