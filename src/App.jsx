@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Nav from "./components/nav";
+import Nav from "./components/Nav";
 import AboutUs from "./Sections/AboutUs";
 import Footer from "./Sections/Footer";
 import Hero from "./Sections/Hero";
@@ -8,7 +8,7 @@ import Profile from "./Sections/Profile"; // Import Profile
 import { useState, useEffect } from "react";
 import BookingForm from "./Sections/BookingForm";
 import ShreeJeeLegalProfile from "./Sections/shreejeelegalprofile";
-import { RachitSharma, rcircle, Hanumant } from "./assets";
+import { RachitSharma, Hanumant } from "./assets";
 import { Shashank } from "./assets";
 import Disclaimer from "./Sections/Disclaimer";
 import ContactUs from "./Sections/contact-us";
