@@ -39,7 +39,7 @@ const Hero = ({ openModal }) => {
       </div>
 
       {/* Right Section */}
-      <div className="relative hidden xl:block w-full xl:flex-1 bg-slate-100 xl:min-h-screen bg-cover bg-center z-[45]">
+      <div className="relative hidden xl:block w-full xl:flex-1 bg-slate-100 xl:min-h-screen bg-cover bg-center z-[35]">
         <div
           className="w-full h-full absolute inset-0 opacity-50 bg-no-repeat bg-cover bg-center"
           style={{ backgroundImage: `url(${Office4})` }}
