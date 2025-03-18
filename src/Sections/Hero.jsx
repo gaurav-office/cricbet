@@ -15,7 +15,7 @@ const Hero = ({ openModal }) => {
             Empowering Justice
           </span>
           <br />
-          <span className=" relative text-5xl sm:text-7xl text-gray-700 my-1 block xl:whitespace-nowrap xl:bg-[#e2e2e2] z-[50] pr-3 py-3">
+          <span className=" relative text-5xl sm:text-7xl text-gray-700 my-1 block xl:whitespace-nowrap xl:bg-[#e2e2e2] z-[40] pr-3 py-3">
             <span className="text-blue-500 font-palanquin">Your Justice,</span>{" "}
             Our Commitment
           </span>
