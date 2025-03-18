@@ -27,7 +27,7 @@ const Disclaimer = ({ onAccept }) => {
         <div className="flex justify-center sm:justify-start">
           <button
             onClick={onAccept}
-            className="border-2 border-gray-400 px-4 py-2 mt-6 text-sm sm:text-base hover:bg-gray-100 transition"
+            className="border-2 border-gray-500 px-4 py-2 mt-6 text-sm sm:text-base hover:bg-gray-100 transition"
           >
             Accept It
           </button>
