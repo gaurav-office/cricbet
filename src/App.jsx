@@ -13,27 +13,46 @@ import SportsBettingGamesPage from "./Sections/SportsBettingGamesPage.jsx";
 import Steps from "./Sections/Steps.jsx";
 import WhatIsCricbet99ID from "./Sections/WhatIsCricbet99ID.jsx";
 import WhatisCricket99 from "./Sections/WhatisCricket99.jsx";
+import Navbar from "./Sections/Navbar.tsx";
+import LoginPage from "./Sections/Login.tsx";
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import Footer from "./Sections/Footer.tsx";
 
 const App = () => {
   return (
     <div>
-      <Toc />
-      <About />
-      <WhatisCricket99 />
-      <Steps />
-      <HowToBet />
-      <SportsBettingGamesPage />
-      <CasinoGamesPage />
-      <DepositWithdrawalPage />
-      <PromotionsBonusesPage />
-      <WhatIsCricbet99ID />
-      <KeyFeatures />
-      <CustomerCareAppPage />
-
-      <RecentPostReviews />
-
-      <Faqs />
-      <FooterLinkPage />
+      <BrowserRouter
+      // future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+      >
+        <Navbar />
+        <Routes>
+          <Route path="/Login" element={<LoginPage />} />
+          <Route
+            path="/"
+            element={
+              <main>
+                <Toc />
+                <About />
+                <WhatisCricket99 />
+                <Steps />
+                <HowToBet />
+                <SportsBettingGamesPage />
+                <CasinoGamesPage />
+                <DepositWithdrawalPage />
+                <PromotionsBonusesPage />
+                <WhatIsCricbet99ID />
+                <KeyFeatures />
+                <CustomerCareAppPage />
+                <RecentPostReviews />
+                <Faqs />{" "}
+              </main>
+            }
+          />
+        </Routes>
+        <Footer />
+        <FooterLinkPage />
+      </BrowserRouter>
+      {/* <LoginPage /> */}
     </div>
   );
 };
