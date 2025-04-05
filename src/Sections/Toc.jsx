@@ -64,7 +64,7 @@ const Cricbet99Page = () => {
         </ul>
       </div>
 
-      {tableOfContents.map((item, index) => (
+      {/* {tableOfContents.map((item, index) => (
         <section
           key={index}
           id={item.replace(/\s+/g, "-")}
@@ -75,7 +75,7 @@ const Cricbet99Page = () => {
             [Detailed content for {item} goes here.]
           </p>
         </section>
-      ))}
+      ))} */}
     </div>
   );
 };

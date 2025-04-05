@@ -19,18 +19,19 @@ const App = () => {
     <div>
       <Toc />
       <About />
-      <CasinoGamesPage />
-      <CustomerCareAppPage />
-      <DepositWithdrawalPage />
-
-      <HowToBet />
-      <KeyFeatures />
-      <PromotionsBonusesPage />
-      <RecentPostReviews />
-      <SportsBettingGamesPage />
-      <Steps />
-      <WhatIsCricbet99ID />
       <WhatisCricket99 />
+      <Steps />
+      <HowToBet />
+      <SportsBettingGamesPage />
+      <CasinoGamesPage />
+      <DepositWithdrawalPage />
+      <PromotionsBonusesPage />
+      <WhatIsCricbet99ID />
+      <KeyFeatures />
+      <CustomerCareAppPage />
+
+      <RecentPostReviews />
+
       <Faqs />
       <FooterLinkPage />
     </div>
