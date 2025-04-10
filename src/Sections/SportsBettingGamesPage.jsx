@@ -1,47 +1,59 @@
+import Cricket from "../assets/images/Cricket.png";
+import Football from "../assets/images/Football.png";
+import Tennis from "../assets/images/Tennis.png";
+import HorseRacing from "../assets/images/HorseRacing.png";
+import Basketball from "../assets/images/Basketball.png";
+
+import Kabaddi from "../assets/images/Kabaddi.png";
+import Badminton from "../assets/images/Badminton.png";
+import Boxing from "../assets/images/Boxing.png";
+import Esports from "../assets/images/E-sports.png";
+
+
 const SportsBettingGamesPage = () => {
   const games = [
     {
       title: "Cricket",
       description:
-        "Cricket, including the IPL, World Cup, Test series for the India cricket team and more – bet live and pre-match. Clients are able to bet on various games and markets: 45, match-winner, total runs, top batsman, top bowler and other interesting offers.",
-      image: "https://via.placeholder.com/150?text=Cricket",
+        "For cricket enthusiasts, Cricbet99 offers live and pre-match betting options for popular events like the IPL, World Cup, and Test series involving the India cricket team. You can place bets on various markets such as match winner, total runs, top batsman, top bowler, and much more.",
+      image: Cricket,
     },
     {
       title: "Football",
       description:
-        "For football lovers, it is possible to bet on various leagues such as the English Premier League, La Liga, Serie A, UEFA Champions League, and FIFA World Cup. Get to have fun through multiple line markets including; Full Time/Full Time, Total goals, Goal difference, etc.",
-      image: "https://via.placeholder.com/150?text=Football",
+        "Football fans can bet on major leagues such as the English Premier League, La Liga, Serie A, UEFA Champions League, and the FIFA World Cup. Enjoy various betting options, including Full Time/Full Time, Total Goals, Goal Difference, and other exciting markets.",
+      image: Football,
     },
     {
       title: "Tennis",
       description:
-        "For tennis enthusiasts, wager on major tournaments like Wimbledon, the US Open, and other key events. Examine individual or team’s markets such as match winner, set winner, total sets, and others.",
-      image: "https://via.placeholder.com/150?text=Tennis",
+        "For tennis lovers, Cricbet99 lets you place bets on top tournaments like Wimbledon, the US Open, and other major events. Bet on markets such as match winner, set winner, total sets, and more.",
+      image: Tennis,
     },
     {
       title: "Horse Racing",
       description:
-        "Try your luck in horse racing betting with available races around the world. Go for a winning horse or try such other markets as place bets, exacta or quinella bets.",
-      image: "https://via.placeholder.com/150?text=Horse+Racing",
+        " Experience the thrill of horse racing betting with races held globally. You can wager on the winning horse or try different markets such as place bets, exacta, or quinella bets.",
+      image: HorseRacing,
     },
     {
       title: "Basketball",
       description:
-        "Basically, no matter NBA events or other basketball championships, here you will find the widest choice of our betting possibilities along with available markets on numerous matches.",
-      image: "https://via.placeholder.com/150?text=Basketball",
+        "Whether it's NBA events or other basketball leagues, Cricbet99 offers a wide variety of betting opportunities, including multiple markets on various matches.",
+      image: Basketball,
     },
   ];
 
   const otherSports = [
-    { title: "Kabaddi", image: "https://via.placeholder.com/150?text=Kabaddi" },
+    { title: "Kabaddi", image: Kabaddi },
     {
       title: "Badminton",
-      image: "https://via.placeholder.com/150?text=Badminton",
+      image: Badminton,
     },
-    { title: "Boxing", image: "https://via.placeholder.com/150?text=Boxing" },
+    { title: "Boxing", image: Boxing },
     {
       title: "E-sports",
-      image: "https://via.placeholder.com/150?text=E-sports",
+      image: Esports,
     },
   ];
 

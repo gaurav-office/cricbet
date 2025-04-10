@@ -5,15 +5,9 @@ const Cricbet99IDPage = () => {
         What Is Cricbet99 ID
       </h1>
       <p className="max-w-4xl text-center text-lg">
-        Cricbet99 ID as a special account identifier from Cricbet99 which
-        functions as a betting platform focused on cricket and sports wagering.
-        Users who create an account with Cricbet99 gain platform access to wager
-        on events while controlling their funds through distinct features like
-        live betting and promotional offers. Users must register on the
-        Cricbet99 website or with an agent to create their Cricbet99 ID while
-        supplying necessary information for verification purposes. Online sports
-        betting at Cricbet99 requires an ID for users to perform secure
-        transactions along with personalized betting experiences.
+      The Cricbet99 ID is a unique account identifier provided by Cricbet99, a platform specializing in cricket and sports betting. When users create an account, they receive this ID, which grants them access to the platform to place wagers on various events. The Cricbet99 ID enables users to manage their funds, participate in live betting, and take advantage of promotional offers.
+To create a Cricbet99 ID, users must register either on the Cricbet99 website or through an agent, providing necessary information for verification. This ID is essential for secure transactions and ensures a personalized, safe betting experience for each user.
+
       </p>
     </div>
   );

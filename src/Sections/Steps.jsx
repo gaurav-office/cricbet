@@ -2,37 +2,37 @@ const Cricbet99StepsPage = () => {
   const registrationSteps = [
     {
       title: "Visit the Official Website",
-      description: "Navigate to the official Cricbet99 website.",
+      description: "Head over to the official Cricbet99 website to get started.",
     },
     {
-      title: "Locate the Sign-Up Button",
+      title: "Find the Sign-Up Button",
       description:
-        'Users can find and press the "Sign-Up" or "Register" button that frequently resides at the website\'s top-right section.',
+        ' Look for the "Sign-Up" or "Register" button, usually located at the top-right corner of the website',
     },
     {
-      title: "Fill in Personal Information",
+      title: "Fill in Personal Details",
       description:
-        "Users must enter their exact details with username and gender information together with their mobile number and email address.",
+        "Provide accurate personal information, including your chosen username, gender, mobile number, and email address.",
     },
     {
-      title: "Create Login Credentials",
+      title: "Create Your Login Credentials",
       description:
-        "Create a solid password when setting up your account access.",
+        "Set a strong password for secure access to your Cricbet99 account..",
     },
     {
       title: "Enter Promo Code (If Available)",
       description:
-        "Step into the Sign-Up promotional code box when it appears on the designated space.",
+        "If you have a promotional code, enter it in the designated box during registration.",
     },
     {
-      title: "Accept Terms and Conditions",
+      title: "Agree to Terms and Conditions",
       description:
-        "For completion of account sign-up agree to the terms and conditions defined by Cricbet99.",
+        " Review and accept the terms and conditions to finalize your account creation.",
     },
     {
       title: "Verify Your Account",
       description:
-        "You need to verify your account by providing the OTP that got sent to your registered mobile number or email address.",
+        " Complete the verification process by entering the OTP sent to your registered mobile number or email address.",
     },
   ];
 
@@ -40,22 +40,22 @@ const Cricbet99StepsPage = () => {
     {
       title: "Access the Platform",
       description:
-        "Users can reach Cricbet99 through cricbet99.com or by launching the Cricbet99 app from their device.",
+        " Visit Cricbet99 through cricbet99.com or open the Cricbet99 app on your device to get started.",
     },
     {
-      title: "Navigate to the Login Page",
+      title: "Go to the Login Page",
       description:
-        'Click the "Login" link anchored at the top-right section of the homepage.',
+        ' Click on the "Login" link, usually located at the top-right corner of the homepage..',
     },
     {
       title: "Enter Your Credentials",
       description:
-        "Input your registered username and password in the respective fields.",
+        " Provide your registered username and password in the appropriate fields.",
     },
     {
-      title: "Complete the Process",
+      title: "Complete the Login",
       description:
-        'After entering your credentials click the "Login" button to enter your account area.',
+        ' After entering your credentials, click the "Login" button to access your account',
     },
   ];
 
@@ -100,10 +100,7 @@ const Cricbet99StepsPage = () => {
             </div>
           ))}
           <p className="mt-4 text-sm">
-            See the “Forgot Password” link on the login page to initiate your
-            password reset process. Seek help through Cricbet99’s continuous
-            customer service available immediately 24 hours daily for email and
-            phone support alongside WhatsApp access.
+          If you’ve forgotten your password, simply click the "Forgot Password" link to begin the reset process. Cricbet99’s customer service is available 24/7 for support via email, phone, and WhatsApp.
           </p>
           <button className="bg-yellow-500 text-black font-bold py-2 px-4 rounded block mx-auto mt-4">
             Cricbet99 Login

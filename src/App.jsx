@@ -17,6 +17,11 @@ import Navbar from "./Sections/Navbar.tsx";
 import LoginPage from "./Sections/Login.tsx";
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
 import Footer from "./Sections/Footer.tsx";
+import Ttop from "./assets/images/Homepage.png";
+// import Second from "./images/second.png";
+// import Third from "./images/third.png";
+// import slotImg from './assets/Slots.png';
+
 
 const App = () => {
   return (
@@ -31,14 +36,20 @@ const App = () => {
             path="/"
             element={
               <main>
+                <img src={Ttop} width="100%"/>
+             
                 <Toc />
                 <About />
-                <WhatisCricket99 />
+                <WhatisCricket99 /> 
+                {/* <img className="h-100 w-5" src={Second} /> */}
+                
                 <Steps />
+                
                 <HowToBet />
+                {/* <img src={Third} /> */}
                 <SportsBettingGamesPage />
                 <CasinoGamesPage />
-                <DepositWithdrawalPage />
+                {/* <DepositWithdrawalPage /> */}
                 <PromotionsBonusesPage />
                 <WhatIsCricbet99ID />
                 <KeyFeatures />

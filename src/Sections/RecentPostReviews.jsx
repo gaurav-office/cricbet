@@ -58,15 +58,15 @@ const RecentPostReviews = () => {
         <div className="grid md:grid-cols-3 gap-10">
           {[
             {
-              text: `Users who use Cricbet99 as their sports betting platform benefit from its exceptional services which I have continually experienced for some time. Users with any level of experience can easily bet through the platform because its interface remains straightforward. The application provides swift transaction solutions for withdrawals. The platform maintains quick and supportive staff who answer my questions whenever needed.`,
+              text: `I've been using Cricbet99 for a while now, and their services are exceptional. The platform is incredibly easy to navigate, making it perfect for users of all experience levels. The app provides fast transaction solutions for withdrawals, and their customer support team is quick and helpful whenever I have questions.`,
               name: "Kirat N.",
             },
             {
-              text: `The moment I discovered Cricbet99's exciting promotional offers I signed up and these days I am truly amazed by their service. The welcome bonus had a really nice amount while additional promotional offers maintained excitement throughout my time using the platform. Live betting appears as the standout feature of the platform which provides users with a polished betting experience. Your search for a strong betting app should end with Cricbet99.`,
+              text: `When I first found Cricbet99’s exciting promotional offers, I signed up immediately, and I’m still amazed by their service. The welcome bonus was generous, and the additional promotions have kept the excitement going. Live betting is the standout feature, providing a smooth and enjoyable betting experience. Cricbet99 is definitely a top choice for any bettor."`,
               name: "Narmil K.",
             },
             {
-              text: `The many different sports betting systems I have used make Cricbet99 my preferred option. The app delivers perfect performance through its betting options for cricket alongside football and various other sports. The platform offers fast deposit and withdrawal capabilities together with responsive customer service. Cricbet99 offers everyone an excellent sports betting opportunity.`,
+              text: `After trying several sports betting systems, Cricbet99 is by far my favorite. The app performs excellently, offering a range of betting options for cricket, football, and other sports. The fast deposit and withdrawal options, along with responsive customer service, make Cricbet99 a top-tier sports betting platform for everyone.`,
               name: "Yash P.",
             },
           ].map((review, i) => (

@@ -1,40 +1,47 @@
+
+import Slots from "../assets/images/Slots.png";
+import Poker from "../assets/images/Poker.png";
+import Roulette from "../assets/images/Roulette.png";
+import Blackjack from "../assets/images/Blackjack.png";
+import Baccarat from "../assets/images/Baccarat.png";
+import LiveStreamedGaming from "../assets/images/LiveStreamedGaming.png";
 const CasinoGamesPage = () => {
   const casinoGames = [
     {
       title: "Slots",
       description:
-        "Prepare yourself in order to travel with fire through the fantastic world of the slot games where every single slot game boasts different themes, additional games and big prizes. Regardless whether you are into the traditional three-reel slots or the video slots, you will be glad to know that they have it all.",
-      image: "https://via.placeholder.com/300?text=Slots",
+      "Get ready to embark on an exciting journey through the world of slot games, where each game offers its own unique theme, bonus features, and huge rewards. Whether you prefer the classic three-reel slots or the modern video slots, you'll be thrilled to discover that there’s something for everyone.",
+      image: Slots,
     },
     {
       title: "Poker",
       description:
-        "Brush up your poker in the virtual games of the most common varieties such as Texas Holdem and Omaha. It is important, however, to join the live poker table and the poker tournament to feel the real poker playing experience.",
-      image: "https://via.placeholder.com/300?text=Poker",
+      "Sharpen your poker skills with popular virtual games like Texas Hold'em and Omaha. For the ultimate poker experience, be sure to join live poker tables and participate in poker tournaments, where you can immerse yourself in the true thrill of the game.",
+      image: Poker,
     },
     {
       title: "Roulette",
       description:
-        "Instead, practice European and American variants of the roulette game risking no money at all. This involves bet on number ranges of red or black, odd number or even numbers or individual numbers of your choice or favorite lucky number series and spin the wheel for the bets to win big.",
-      image: "https://via.placeholder.com/300?text=Roulette",
+      "You can try practicing European and American roulette without any financial risk. This allows you to place bets on different number ranges, such as red or black, odd or even numbers, or even specific individual numbers or lucky number series. Spin the wheel and see how your bets play out, offering you a chance to experience the excitement of winning big without the need to wager real money",
+      image: Roulette,
     },
     {
       title: "Blackjack",
       description:
-        "This is one of the leading card games where you can get all the major types of Blackjack games and amp; enjoy Live Blackjack. The Primary objective of the game is to wit and outplay the dealer by having a hand total, when the face cards are taken into consideration, as close to 21 as possible.",
-      image: "https://via.placeholder.com/300?text=Blackjack",
+"Blackjack is one of the most popular card games, offering a variety of versions for you to enjoy, including Live Blackjack. The main goal of the game is to outsmart and beat the dealer by getting a hand total as close to 21 as possible, especially when counting face cards. This requires strategy and skill to make the right moves and win the game.",
+      image: Blackjack,
     },
     {
       title: "Baccarat",
       description:
-        "As one of the most popular casino games, baccarat is quite easy, but it has not lost its interest. You can place your money on the outcome of the game by putting your stake on the player, the banker, or the tie, and wait as the cards are dealt to determine your luck.",
-      image: "https://via.placeholder.com/300?text=Baccarat",
+"Baccarat is one of the most popular casino games, known for its simplicity yet maintaining a high level of excitement. In this game, you place your bet on one of three possible outcomes: the player, the banker, or a tie. Once your stake is placed, the cards are dealt, and the outcome will determine whether luck is on your side, offering a thrilling experience with every round.",
+      image: Baccarat,
     },
     {
       title: "Live Streamed Gaming",
       description:
-        "We offer you to visit our wide variety of live casino games that are played under the supervision of real dealers and croupiers and where you can choose roulette, blackjack, poker, and baccarat. Engage with players and dealers in an open-ended setting and have the ability to play and gamble right from your house!",
-      image: "https://via.placeholder.com/300?text=Live+Gaming",
+"We invite you to explore our diverse selection of live casino games, where real dealers and croupiers oversee the action. You can enjoy classic games like roulette, blackjack, poker, and baccarat in an immersive environment. Interact with other players and dealers in a dynamic, open-ended setting, all while enjoying the convenience of playing and gambling from the comfort of your own home!",
+      image: LiveStreamedGaming,
     },
   ];
 

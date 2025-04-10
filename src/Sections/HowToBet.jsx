@@ -1,39 +1,41 @@
+import third from "../assets/images/third.png"
+
 const HowToPlaceBetPage = () => {
   const steps = [
     {
       title: "Log In to Your Account",
       description:
-        "Access your Cricbet99 account by entering your username and password at the website's front page.",
+        " Access your Cricbet99 account by entering your username and password on the homepage.",
     },
     {
       title: "Deposit Funds",
       description:
-        "Check that your betting account contains enough monetary balance. Before placing bets check your account balance or go to deposit the payment methods available.",
+        " Ensure that your account has sufficient balance for betting. You can check your balance or deposit funds through the available payment methods.",
     },
     {
-      title: "Select a Sport",
+      title: "Choose a Sport",
       description:
-        "Visit Cricbet99's platform to select your preferred betting sport from cricket football or tennis.",
+        "Browse Cricbet99’s platform to select your preferred sport for betting, whether it's cricket, football, or tennis.",
     },
     {
-      title: "Choose an Event",
+      title: "Select an Event",
       description:
-        "Open the list of matches or events before selecting an appealing choice.",
+        " Browse through the list of upcoming matches or events and pick the one that interests you.",
     },
     {
       title: "Pick a Betting Market",
       description:
-        "Choose between match winner bets or top scorer or total run betting types when you want to place your bet.",
+        " Choose the type of bet you wish to place, such as match winner, top scorer, or total runs, depending on the event.",
     },
     {
-      title: "Enter Stake Amount",
+      title: "Enter Stake ",
       description:
-        "Refresh your stake box by entering the funds you want to bet.",
+        "Specify the amount you want to stake by entering it into the stake box.",
     },
     {
-      title: "Confirm Bet",
+      title: "Confirm Your Bet",
       description:
-        'Before betting you should check your bets one last time then use the "Place Bet" button to finalize your wager.',
+        ' Review your selections carefully and click the "Place Bet" button to confirm and finalize your wager.',
     },
   ];
 
@@ -45,7 +47,7 @@ const HowToPlaceBetPage = () => {
       <div className="flex flex-col md:flex-row gap-6 max-w-7xl mx-auto">
         <div className="md:w-1/2 sticky top-10 self-start">
           <img
-            src="https://via.placeholder.com/500x600.png?text=How+to+Place+Bet"
+            src={third}
             alt="How to Place Bet at Cricbet99"
             className="rounded-lg shadow-xl"
           />

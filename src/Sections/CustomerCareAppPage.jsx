@@ -8,16 +8,9 @@ const CustomerCareAppPage = () => {
             Cricbet99 Customer Care
           </h2>
           <p>
-            The betting platform Cricbet99 provides continuous customer support
-            as a way to help users enjoy seamless betting. Users can immediately
-            access assistance from support staff by using the web-based live
-            chat feature that operates on their website. Contact Cricbet99
-            through their email for complex questions while their support staff
-            can respond immediately to your calls. You can resolve issues
-            through fast WhatsApp support. Spinning service availability round
-            the clock empowers their customer care staff to deliver prompt
-            resolutions applying to account problems and transaction services
-            and service requirements.
+          Cricbet99 offers 24/7 customer support to ensure users have a smooth and enjoyable betting experience. The platform provides immediate assistance through its live chat feature on the website, where users can easily get help in real-time. For more detailed inquiries, users can contact Cricbet99 via email, with the support team responding promptly to resolve complex issues. 
+Additionally, Cricbet99 offers fast WhatsApp support, enabling users to address concerns quickly. The round-the-clock availability of their customer care team ensures that any account issues, transaction problems, or service requests are handled efficiently and effectively.
+
           </p>
           <button className="bg-black text-white px-4 py-2 rounded w-fit">
             Contact Us
@@ -39,23 +32,13 @@ const CustomerCareAppPage = () => {
             Cricbet99 App
           </h2>
           <p>
-            Cricbet99 App can access different sports markets such as cricket
-            football tennis and other games through the mobile application that
-            operates on smartphones and tablets.
+          The Cricbet99 app allows users to access a wide range of sports markets, including cricket, football, tennis, and more, directly from their smartphones or tablets. With a user-friendly interface, the app simplifies the betting process, enabling bettors to easily navigate between options, view real-time scores, and manage their funds efficiently.
           </p>
           <p>
-            Bettors experience simplified betting with Cricbet99 due to its
-            user-friendly platform and its capability to transfer between
-            options and display real-time scoring as well as manage funds
-            effectively. Security stands as a primary focus to ensure secure
-            transactions and withdrawals and the platform also provides
-            rewarding account opportunities as well as immediate customer
-            support.
+          Security is a top priority for Cricbet99, ensuring that all transactions and withdrawals are safe and secure. The app also offers rewarding account features, along with immediate customer support to address any issues that may arise
           </p>
           <p>
-            Cricbet99 offers its app for both Android and iOS users who can
-            receive immediate betting updates through active notifications any
-            time they are mobile.
+          Available for both Android and iOS devices, the Cricbet99 app keeps users updated with active notifications, ensuring they never miss important betting opportunities while on the go.
           </p>
           <button className="bg-yellow-500 text-black px-4 py-2 rounded w-fit">
             Download Cricbet99 App

@@ -8,23 +8,21 @@ const PromotionsBonusesPage = () => {
     {
       title: "Deposit Bonuses",
       description:
-        "Daily Deposit Bonus: When users make daily deposits they can collect an extra 20% bonus.",
+        "Daily Deposit Bonus: When users make daily deposits they can collect an extra 20% bonus,giving their funds a boost with every deposit.",
     },
     {
       title: "Free Bets",
       description:
-        "Regular Free Bets: Free bet promotions are a regular feature at Cricbet99 allowing customers to build new betting strategies free of charge.",
-    },
+        "Regular Free Bets: Cricbet99 offers regular free bet promotions, allowing customers to try out new betting strategies at no extra cost.",
+  },
     {
       title: "Referral Bonus",
       description:
-        "5% Referral Bonus: Each time a referred user joins and completes their first bet Cricbet99 awards a 5% bonus that enhances a customer's funds while strengthening customer dedication.",
-    },
+        "5% Referral Bonus: Refer a friend to Cricbet99 and earn a 5% bonus each time they complete their first bet, strengthening your funds and encouraging loyalty.",   },
     {
       title: "Exclusive Promotions",
       description:
-        "Custom Betting Markets: Users at Cricbet99 can customize betting markets through the creation of their odds resulting in tailored betting options.",
-    },
+        "Custom Betting Markets: Cricbet99 gives users the freedom to customize their betting markets by creating their own odds, offering a more personalized and unique betting experience.",   },
   ];
 
   return (

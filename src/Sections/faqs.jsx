@@ -2,44 +2,44 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How do I sign up for CricBet99?",
+    question: "How can I create an account with CricBet99?",
     answer:
-      "To sign up with CricBet99, just visit their website and click on the “Sign Up” or “Register” button. The next step will be asking you to provide some personal information and create an account.",
+      "To sign up for CricBet99, simply visit the website or download the mobile app. Click on the 'Sign Up' button, enter your personal details, and create a secure password. After registration, verify your account using the required documents, and you're ready to start betting!.",
   },
   {
-    question: "What kinds of sports are available for wagering on CricBet99?",
+    question: "What sports can I place bets on through CricBet99?",
     answer:
-      "You can place bets on cricket, football, tennis, horse racing, basketball, and other popular sports globally.",
+      "CricBet99 offers a wide range of sports, with a primary focus on cricket. In addition to cricket, you can also bet on popular sports such as football, tennis, basketball, horse racing, and many other international and regional sports.",
   },
   {
-    question: "How can I deposit money into my CricBet99 account?",
+    question: "What are the available methods for depositing money into my CricBet99 account?",
     answer:
-      "You can deposit money via UPI, Paytm, Google Pay, PhonePe, Credit/Debit cards, Skrill, Neteller, and bank transfers.",
+      "CricBet99 provides various secure payment methods for depositing funds, including credit/debit cards, bank transfers, and e-wallets. Simply log in to your account, navigate to the deposit section, select your preferred payment method, and follow the prompts to add funds to your account.",
   },
   {
-    question: "Do they have a minimum age requirement at CricBet99?",
+    question: "Is there a minimum age requirement to use CricBet99?",
     answer:
-      "Yes, you must be at least 18 years old to register and place bets on CricBet99.",
+      "Yes, CricBet99 follows legal regulations and requires users to be at least 18 years old to register and place bets. Make sure to provide valid identification during registration for verification purposes.",
   },
   {
-    question: "How are my personal and financial details secure at CricBet99?",
+    question: "How does CricBet99 protect my personal and financial information?",
     answer:
-      "CricBet99 uses SSL encryption and secure servers to ensure all your information remains protected and private.",
+      "CricBet99 employs advanced encryption technology to ensure the security of your personal and financial data. Your details are stored in a secure environment, and the platform uses trusted payment systems to protect all transactions, giving you peace of mind while betting.",
   },
   {
-    question: "Can I bet on live matches with CricBet99?",
+    question: "Can I place bets on live events with CricBet99?",
     answer:
-      "Yes, live betting is available for many matches across cricket, football, and other sports.",
+      "Yes, CricBet99 offers live betting on a variety of sports. You can place wagers during ongoing matches and take advantage of real-time odds to enhance your betting experience.",
   },
   {
-    question: "How can I withdraw winnings from my Cricbet 99 account?",
+    question: "How do I withdraw my winnings from CricBet99?",
     answer:
-      "Winnings can be withdrawn using UPI, Skrill, bank transfer, or e-wallets like Paytm and PhonePe.",
+      "Withdrawing your winnings from CricBet99 is easy. Simply go to your account, choose the 'Withdraw' option, and select your preferred payment method. Enter the amount you'd like to withdraw and confirm the transaction. Withdrawals are processed quickly to ensure you get your winnings without delay.",
   },
   {
-    question: "Does CricBet99 provide bonuses or promotions?",
+    question: "Are there any bonuses or promotions available on CricBet99?",
     answer:
-      "Yes, there are welcome bonuses, deposit bonuses, free bets, referral bonuses, and custom betting promotions.",
+      "Yes, CricBet99 regularly offers a variety of bonuses and promotions to both new and existing users. These include welcome bonuses, deposit match offers, free bets, and special promotions for live betting. Be sure to check the promotions section on the website or app for the latest offers.",
   },
 ];
 

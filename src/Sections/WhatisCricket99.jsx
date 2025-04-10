@@ -1,3 +1,4 @@
+import second from "../assets/images/second.png"
 const WhatIsCricbet99Page = () => {
   return (
     <div className="min-h-screen bg-yellow-500 flex items-center justify-center p-8">
@@ -7,17 +8,8 @@ const WhatIsCricbet99Page = () => {
             What is Cricbet99?
           </h1>
           <p className="text-black text-justify mb-6">
-            Sports betting platform Cricbet99 provides an online platform that
-            specializes in cricket alongside football and tennis matches and
-            additional major events. The betting platform provides accessible
-            betting features as well as favorable odds along with instant money
-            withdrawals and continuous live support channels. Users at Cricbet99
-            can engage in sports betting but also participate in election
-            betting and casino gameplay which offers them diverse betting
-            opportunities. Cricbet99 provides patients a modern betting platform
-            that offers smooth betting services with valuable incentives and
-            protected financial operations. Users who need additional details
-            can check their official website alongside their support department.
+          Cricbet99 is a premier sports betting platform that offers a wide range of betting options, focusing on cricket while also covering football, tennis, and other major events. This user-friendly platform delivers competitive odds, quick money withdrawals, and round-the-clock live customer support.
+Cricbet99 not only offers traditional sports betting but also provides opportunities for election betting and casino games, giving users a variety of options to explore. The platform is designed to deliver a seamless betting experience with valuable rewards and secure financial transactions. For further information, users can visit the official website or reach out to their dedicated support teams.
           </p>
           <button className="bg-black text-white font-bold py-2 px-4 rounded">
             Get Cricbet99 ID
@@ -25,7 +17,7 @@ const WhatIsCricbet99Page = () => {
         </div>
         <div className="md:w-1/2 md:pl-6 mt-6 md:mt-0">
           <img
-            src="https://via.placeholder.com/500x300.png?text=What+is+Cricbet99"
+            src={second}
             alt="What is Cricbet99"
             className="rounded-lg shadow-lg"
           />
